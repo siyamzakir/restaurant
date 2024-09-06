@@ -1,0 +1,348 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+     .section-padding {
+        padding: 60px 0;
+     }
+
+    .is-sticky .header-area {
+      height: 50px;
+    }
+    
+    .logo img {
+      height: 25px;
+      margin-top: 22px;
+        cursor: pointer;
+    }
+    .mainmenu {
+        margin-top: -26px;
+        padding-bottom: 15px;
+        padding-left: 120px;
+        padding-right: 0;
+    }
+    .social-links {
+      top: 0;
+    }
+    
+    .is-sticky .logo img {
+      height: 22px;
+    }   
+
+    .is-sticky .social-links {
+      top: -27px;
+    }    
+    .is-sticky .navbar-header {
+      top: -30px;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li a {
+      color: #d09900;
+      padding: 15px;
+    }    
+    .mainmenu ul.nav.navbar-nav li a {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+    .social-links a {
+      font-size: 16px;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li a {
+       font-size: 15px;
+        padding: 0 5px;
+    }
+    .is-sticky .social-links {
+      top: 0;
+    }
+
+    .header-text h2 {
+        font-size: 60px;
+    }
+    .header-text {
+      padding: 100px 0 70px;
+    }
+    .authore-food-img {
+      margin-top: 30px;
+        text-align: center;
+    }
+    .authore-photo {
+      text-align: center;
+    }
+    .contact-img {
+      margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+    }
+   .contact-img .hovereffect {
+      display: inline-block;
+      float: none;
+    }
+    .contact-btn {
+      width: 30%;
+    }
+    .footer-widget {
+      font-size: 14px;
+    }
+
+    .food-gellary {
+      padding-top: 170px;
+    }
+    
+   
+    
+    .hovereffect p {
+  font-size: 8px;
+  line-height: 3;
+  text-transform: none;
+}
+    .tab-food-content p {
+        margin: 5px;
+    }
+    .tab-food-content {
+    text-align: center;
+    }
+    .Facebook-comments-box {
+      overflow: hidden;
+    }
+    .nav.navbar-nav li {
+        margin: 0 auto;
+    }
+    .mainmenu ul.nav.navbar-nav {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+.right-slide.fawesome-control {
+  color: #fff;
+  font-size: 60px;
+  margin-top: -40px;
+  opacity: 0.2;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+.left-slide.fawesome-control {
+  color: #fff;
+  font-size: 60px;
+  margin-top: -40px;
+  opacity: 0.2;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+}
+    
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+
+    
+body {
+    font-size: 14px;
+}  
+h2 {
+    font-size: 25px;
+}
+.section-padding {
+    padding: 35px 0;
+ }
+
+.is-sticky .header-area {
+  height: 50px;
+}
+.header-text {
+  padding: 25px 0;
+}   
+.header-text h2 {
+  font-size: 27px;
+    background: none;
+    padding-bottom: 30px;
+}
+.btn-filled {
+  padding: 5px;
+}
+    
+.logo img {
+   height: 25px;
+    margin-top: 22px;
+}
+   
+.navbar-header {
+    position: absolute;
+    right: 94px;
+    top: -29px;
+}
+
+.social-links {
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+   
+.mainmenu {
+  padding-right: 0;
+  padding-top: 20px;
+  text-align: center;
+}       
+.is-sticky .logo img {
+  height: 22px;
+}   
+
+.is-sticky .social-links {
+  top: -27px;
+}    
+.is-sticky .navbar-header {
+  top: -30px;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li a {
+  color: #d09900;
+  padding: 15px;
+}       
+
+.navbar-collapse {
+  margin-top: -20px;
+}
+    
+.authore-photo {
+      text-align: center;
+    margin-bottom: 20px;
+ }    
+.navbar-toggle {
+  float: none;
+  margin: 0;
+    border-color: #fff;
+}  
+.navbar-toggle .icon-bar {
+  background: #fff none repeat scroll 0 0;
+}  
+
+    
+.mobile-menu-activated ul.nav.navbar-nav {
+  background: #000 none repeat scroll 0 0;
+    text-align: center;
+} 
+
+.mobile-menu-activated ul.nav.navbar-nav li {
+  display: block;
+  
+}   
+.mobile-menu-activated ul.nav.navbar-nav li: last-child a {
+  border-bottom: none;
+  
+}  
+.mobile-menu-activated ul.nav.navbar-nav li a{
+  padding: 6px;
+    border-bottom: 1px solid#333; 
+}  
+.mobile-menu-activated .navbar-collapse {
+  box-shadow: 0 0 0;
+} 
+
+.mobile-menu-activated .is-sticky .mainmenu ul.nav.navbar-nav li a {
+  padding: 5px;
+}        
+
+    
+.testimonial-list {
+  font-size: 16px;
+}
+.contact-btn {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px auto 0;
+    padding: 8px;
+    width: 40%;
+}
+.hovereffect .img-responsive {
+      display: inline-block;
+      margin: 9px;
+}
+.right-slide.fawesome-control {
+    font-size: 50px;
+    opacity: 0.3;
+    right: 15px;
+    top: 75%;
+}
+.left-slide.fawesome-control {
+  font-size: 50px;
+  opacity: 0.3;
+  left: 15px;
+  top: 75%;
+}
+  
+    
+    
+/*Gallery Page*/    
+.tab-food-menu-area.section-padding {
+  padding: 25px 0;
+} 
+    
+.Facebook-comments-box {
+  overflow: hidden;
+}    
+.food-menu-filter li {
+  font-size: 15px;
+  padding: 5px 20px;
+  
+}    
+.hovereffect img {
+    width: 100%;
+} 
+
+.footer-widget {
+  margin-bottom: 50px;
+}  
+    
+.food-menu-filter li {
+  font-size: 14px;
+    padding: 4px 9px;
+    margin: 0 auto;
+}
+
+.tab-food-menu-area h2 {
+  margin-bottom: 20px;
+}
+.contact-img .hovereffect .img-responsive {
+    width: 100%;
+}
+.contact-img {
+  float: none;
+  max-width: 100%;
+  text-align: center;
+}
+    .contact-img img {
+  max-width: 100%;
+}
+.contact-text{
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+}
+.hovereffect p {
+  font-size: 8px;
+  line-height: 3;
+  text-transform: none;
+}
+.tab-food-content p {
+    padding: 5px;
+    text-align: center;
+}
+
+    
+.cd-top {
+  height: 30px;
+  width: 30px;
+}    
+    
+
+}   
+   
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+
+}

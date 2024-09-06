@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Palmview Restaurant/Gellery</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS-->
+    <link href="style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/imagehover.min.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+    <!-- Light Gellary CSS-->
+    <link href="css/lightgallery.css" rel="stylesheet">
+    <!-- Responsive CSS-->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <style>
+        .header-area {
+            background-color: #333 !important;
+            float: left;
+            margin-bottom: 200px;
+            width: 100%;
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="js">
+        <!--this is supposed to be on the HTML element but codepen won't let me do it-->
+        <div id="preloader"></div>
+    </div>
+    <!--END Preloader-->
+
+
+    <!--===============Header Section==================== -->
+    <section class="top-area">
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo2.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="mainmenu">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar top-bar"></span>
+                              <span class="icon-bar middle-bar"></span>
+                              <span class="icon-bar bottom-bar"></span>
+                            </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active smooth-menu"><a href="index.html">Home</a></li>
+                                    <li class="smooth-menu"><a href="#reservations">Reservations</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/PalmViewDhaka/?fref=ts"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                <a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===============Food Gellary Area==================== -->
+    <section class="food-gellary section-padding text-center">
+        <div class="container-fluid">
+            <!--==============Gellary Album==================== -->
+            <div class="gellery-album">
+                <div class="cont">
+                    <div class="page-head">
+                        <h2 class="section-title">Gellary</h2>
+
+                        <div class="demo-gallery">
+                            <div id="lightgallery" class="image-item">
+                                <a href="img/asset/1.jpg"><img src="img/asset/1-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/2.jpg"><img src="img/asset/2-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/3.jpg"><img src="img/asset/3-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/4.jpg"><img src="img/asset/4-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/5.jpg"><img src="img/asset/5-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/6.jpg"><img src="img/asset/6-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/7.jpg"><img src="img/asset/7-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/8.jpg"><img src="img/asset/8-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/9.jpg"><img src="img/asset/9-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/10.jpg"><img src="img/asset/10-thumbanails.jpg" />
+                                </a>
+                                <a href="img/asset/11.jpg"><img src="img/asset/11-thumbanails.jpg" />
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!--==============Foood Gellary Section==================== -->
+                <div class="food-gellary-section">
+                    <h2 class="section-title">Chose your Food</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="food-menu">
+                                <ul class="food-menu-filter">
+                                    <li class="active filter" data-filter="all">All</li>
+                                    <li class="filter" data-filter=".snacks">Snacks</li>
+                                    <li class="filter" data-filter=".lunch">Lunch</li>
+                                    <li class="filter" data-filter=".dinner">Dinner</li>
+                                </ul>
+                            </div>
+
+                            <div class="food-menu-list">
+
+                                <div class="mix snacks food-img">
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/snacks1.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/snacks2.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/snacks3.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner4.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner5.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/lunch3.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner8.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                                <div class="mix lunch food-img">
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/lunch1.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner6.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/lunch3.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/lunch4.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/lunch5.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/snacks2.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner7.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="mix dinner food-img">
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner1.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner2.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner3.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner4.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner5.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner7.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="hovereffect">
+                                        <img class="img-responsive" src="img/food/dinner8.jpg" alt="">
+                                        <div class="overlay">
+                                            <div class="rotate">
+                                                <p class="group1">
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </p>
+                                                <hr>
+                                                <hr>
+                                                <p class="group2">
+                                                    <a href="#">
+                                                        <i class="fa fa-instagram"></i>
+                                                    </a>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===============Tab Food Menu Section==================== -->
+    <section class="tab-food-menu-area section-padding">
+        <h2 class="section-title">Ready to Serve</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="accordion" class="wow fadeInDown" data-wow-delay="0.25s" role="tablist" aria-multiselectable="true">
+                        <img src="img/gellary/food-menu.png" alt="">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Tea Break
+                        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-inner-picture">
+                                    <div class="hovereffect">
+                                        <img class="img-responsive tab-menu-pic" src="img/gellary/Tea-break-2-300x300.png" alt="">
+                                        <div class="overlay">
+                                            <p class="group2">
+                                                <a title="" data-toggle="tooltip" data-original-title="Details about Menu"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                                                <a title="" data-toggle="tooltip" data-original-title="Call to Details"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><span>T</span>ea Break Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Lunch
+                        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-inner-picture">
+                                    <div class="hovereffect">
+                                        <img class="img-responsive tab-menu-pic" src="img/gellary/lunch.jpg" alt="">
+                                        <div class="overlay">
+                                            <p class="group2">
+                                                <a title="" data-toggle="tooltip" data-original-title="Details about Menu"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                                                <a title="" data-toggle="tooltip" data-original-title="Call to Details"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><span>L</span>unch Break Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Evening Snacks
+                        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-inner-picture">
+                                    <div class="hovereffect">
+                                        <img class="img-responsive tab-menu-pic" src="img/gellary/snacks-time.jpg" alt="">
+                                        <div class="overlay">
+                                            <p class="group2">
+                                                <a title="" data-toggle="tooltip" data-original-title="Details about Menu"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                                                <a title="" data-toggle="tooltip" data-original-title="Call to Details"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><span>E</span>vening Snacks perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                          Buffet Dinner
+                        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-inner-picture">
+                                    <div class="hovereffect">
+                                        <img class="img-responsive tab-menu-pic" src="img/gellary/dinner.jpg" alt="">
+                                        <div class="overlay">
+                                            <p class="group2">
+                                                <a title="" data-toggle="tooltip" data-original-title="Details about Menu"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                                                <a title="" data-toggle="tooltip" data-original-title="Call to Details"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><span>D</span>inner Menu ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                          Dessert
+                        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-inner-picture">
+                                    <div class="hovereffect">
+                                        <img class="img-responsive tab-menu-pic" src="img/gellary/dessert.jpg" alt="">
+                                        <div class="overlay">
+                                            <p class="group2">
+                                                <a title="" data-toggle="tooltip" data-original-title="Details about Menu"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+                                                <a title="" data-toggle="tooltip" data-original-title="Call to Details"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p><span>D</span>essert Menu ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="tab-food-content wow fadeInDown" data-wow-delay="0.5s">
+                        <img class="wow tada" data-wow-delay="1s" src="img/gellary/2good%20restaurant.png" alt="">
+                        <p>
+                            <Span>P</Span> almview Restaurant Opened in February 2011. The Palm View Restaurant envisioned the dream of establishing an exclusive classic place of fine dining at the heart of capital city. Our Restaurant is perfectly positioned inside a lush green path of the Army Golf Club, Air Port Road, opposite of Radisson Hotel, showcasing the contemporary continental, Japanese, Thai/ Chinese & Indian cuisines.</p>
+                        <div class="Facebook-comments-box">
+                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FPalmViewDhaka%2F%3Ffref%3Dts&width=450&layout=standard&action=like&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===============Contact us Area==================== -->
+    <section class="contact-us-area section-padding" id="reservations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-7">
+                    <div class="contact-img wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="img/reservation-img3.jpg" alt="">
+                            <div class="overlay">
+                                <div class="rotate">
+                                    <p class="group1">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </p>
+                                    <hr>
+                                    <hr>
+                                    <p class="group2">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="img/reservation-img4.jpg" alt="">
+                            <div class="overlay">
+                                <div class="rotate">
+                                    <p class="group1">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </p>
+                                    <hr>
+                                    <hr>
+                                    <p class="group2">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="img/reservation-img5.jpg" alt="">
+                            <div class="overlay">
+                                <div class="rotate">
+                                    <p class="group1">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </p>
+                                    <hr>
+                                    <hr>
+                                    <p class="group2">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="img/reservation-img6.jpg" alt="">
+                            <div class="overlay">
+                                <div class="rotate">
+                                    <p class="group1">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </p>
+                                    <hr>
+                                    <hr>
+                                    <p class="group2">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-offset-1">
+                    <div class="contact-text text-center wow slideInRight" data-wow-delay="0.1s">
+                        <h2 class="section-title">Just the right food</h2>
+                        <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food.
+                            <p>
+                                Delicious Palmview cakes, muffins, and gourmet coffees make us hard to resist! Stop in today and check us out! Perfect materials and freshly baked food.</p>
+                            <div class="contact-form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <lebel for="name">Name</lebel>
+                                            <input type="text" placeholder="your name *">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <lebel for="email">Email</lebel>
+                                            <input type="text" placeholder="your email *">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-sm-6">
+                                            <lebel for="date">Pick date</lebel>
+                                            <input id="datepicker" type="text" placeholder="Date * ">
+                                        </div>
+
+                                        <div class="col-sm-6">
+                                            <lebel for="party number">Type of Party</lebel>
+                                            <select name="" id="">
+                                        <option value="">Conference</option>
+                                        <option value="">Meeting</option>
+                                        <option value="">Birthday</option>
+                                        <option value="">Engagement</option>
+                                        <option value="">Bar B Q</option>
+                                    </select>
+                                        </div>
+
+                                    </div>
+                                    <a class="btn contact-btn wow tada" data-wow-delay="1s" href=""><span>BOOK NOW</span></a>
+
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===============Footer Area==================== -->
+    <section class="footer-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-5">
+                    <div class="footer-widget wow fadeInDown" data-wow-delay="0.5s">
+                        <h2 class="section-title">Contact Us</h2>
+                        <p>Palmview Restaurant location represents a truly authentic Greek patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.<br />
+                            <i class="fa fa-copyright" aria-hidden="true"></i> Test 2016. Developed by <a href="https://www.freelancer.com/u/siyam30.html">Siyam Zakir</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-lg-offset-1 col-sm-4">
+                    <div class="footer-widget wow fadeInDown" data-wow-delay="0.75s">
+                        <h2 class="section-title">Opening Hours</h2>
+                        <p><strong>Mon-Thu: </strong>7:00am-8:00pm <br/>
+                            <strong>Fri-Sun:</strong> 7:00am-10:00pm</p>
+                        <div class="footer-cards">
+                            <span><img src="img/payment/we-support.png" alt=""></span>
+                            <ul>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Visa"><img src="img/payment/visa.jpg" alt=""></li>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Dutch Bangla Bank"><img src="img/payment/dbbl.gif" alt=""></li>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Amex"><img src="img/payment/amex.jpg" alt=""></li>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Master Card"><img src="img/payment/master.png" alt=""></li>
+                                <li data-toggle="tooltip" data-placement="bottom" title="Bkash"><img src="img/payment/bKash.png" alt=""></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-lg-offset-2 col-sm-3">
+                    <div class="footer-widget wow fadeInDown" data-wow-delay="1s">
+                        <h2 class="section-title">Our Location</h2>
+                        <p>Golf Garden, Army Golf Club, Airport Road, Dhaka-1207</p>
+                        <div class="footer-social-icon">
+                            <a data-toggle="tooltip" data-placement="bottom" title="Facebook" href="https://www.facebook.com/PalmViewDhaka/?fref=ts"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Twitter" href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Youtube" href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                            <a data-toggle="tooltip" data-placement="bottom" title="Linkedin" href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <a href="#" class="cd-top">Top</a>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Jqeury Easing & Sticky js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.scrolly.js"></script>
+    <!-- Wow Animated js -->
+    <script src="js/wow.min.js"></script>
+    <!-- Date picker js -->
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script>
+        $('#datepicker').datepicker()
+    </script>
+    <!-- Mixitup js -->
+    <script src="js/jquery.mixitup.min.js"></script>
+    <!-- Light Gellary js -->
+    <script src="js/lightgellary/lightgallery.min.js"></script>
+    <script src="js/lightgellary/lg-autoplay.min.js"></script>
+    <script src="js/lightgellary/lg-fullscreen.min.js"></script>
+    <script src="js/lightgellary/lg-hash.min.js"></script>
+    <script src="js/lightgellary/lg-pager.min.js"></script>
+    <script src="js/lightgellary/lg-share.min.js"></script>
+    <script src="js/lightgellary/lg-video.min.js"></script>
+    <script src="js/lightgellary/lg-zoom.min.js"></script>
+    <script src="js/lightgellary/lg-thumbnail.min.js"></script>
+
+    <!-- Custom js -->
+    <script src="js/custom.js"></script>
+
+    <!-- Facebok -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Gellry Album -->
+    <script>
+        $(document).ready(function() {
+            $('#lightgallery').lightGallery({
+                pager: true
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

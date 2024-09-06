@@ -1,0 +1,1024 @@
+/*==============Default CSS==================*/
+
+
+/*==============Default CSS==================*/
+
+
+/*==============Default CSS==================*/
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+}
+a {
+    color: #0083e8;
+}
+b,
+strong {
+    font-weight: 600;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:hover {
+    text-decoration: none
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.navbar-toggle {
+    border: none;
+    background: transparent !important;
+}
+.navbar-toggle:hover {
+    background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+}
+.navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggle .middle-bar {
+    opacity: 0;
+}
+.navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+.navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+}
+.navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+}
+.navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+/*Prelaoder CSS*/
+.js div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #333 url(img/loader.svg) no-repeat center center;
+}
+
+/*==============Custom CSS==================*/
+
+/*==============Custom CSS==================*/
+
+/*==============Custom CSS==================*/
+
+/*==============Custom CSS==================*/
+
+/*
+
+}==================*/
+
+/*Top Area*/
+.header-text h2 {
+    background: url(img/line_symbol.png);
+}
+.sticky-wrapper {
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    position: absolute;
+}
+.header-area {
+    width: 100%;
+}
+.top-area-bg {
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.header-text-area {
+    position: relative;
+    padding-top: 80px;
+}
+.slide-bg-1 {
+    background-image: url(img/header-bg.jpg)
+}
+.slide-bg-2 {
+    background-image: url(img/header-bg2.jpg)
+}
+.slide-bg-3 {
+    background-image: url(img/header-bg3.jpg)
+}
+.slide-bg-4 {
+    background-image: url(img/header-bg4.jpg)
+}
+.slide-bg-5 {
+    background-image: url(img/header-bg5.jpg)
+}
+.first-slider-title {
+    color: white;
+}
+.first-slider-title span {
+    color: #78BD52;
+}
+.second-slider-title {
+    color: #D40649;
+}
+.third-slider-title {
+    color: #CC9900;
+}
+.four-slider-title {
+    color: #76BA20;
+}
+.five-slider-title {
+    color: yellow;
+}
+.left-slide.fawesome-control {
+    color: #fff;
+    font-size: 80px;
+    margin-top: -70px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    opacity: .2
+}
+.left-slide.fawesome-control:hover {
+    opacity: 1;
+    color: #fff;
+    transition: all ease .5s;
+}
+.right-slide.fawesome-control {
+    color: #fff;
+    font-size: 80px;
+    margin-top: -70px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    opacity: .2
+}
+.right-slide.fawesome-control:hover {
+    opacity: 1;
+    color: #fff;
+    transition: .5s;
+}
+#top-slide-carousel.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+#top-slide-carousel.carousel-fade .carousel-inner .item,
+#top-slide-carousel.carousel-fade .carousel-inner .active.left,
+#top-slide-carousel.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+#top-slide-carousel.carousel-fade .carousel-inner .active,
+#top-slide-carousel.carousel-fade .carousel-inner .next.left,
+#top-slide-carousel.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+#top-slide-carousel.carousel-fade .carousel-inner .next,
+#top-slide-carousel.carousel-fade .carousel-inner .prev,
+#top-slide-carousel.carousel-fade .carousel-inner .active.left,
+#top-slide-carousel.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+#top-slide-carousel.carousel-fade .carousel-control {
+    z-index: 2;
+}
+.mainmenu {
+    position: relative;
+    padding-right: 80px;
+}
+.mainmenu ul.nav.navbar-nav {
+    float: none;
+    text-align: right;
+}
+.mainmenu ul.nav.navbar-nav li {
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+.mainmenu ul.nav.navbar-nav li:hover a {
+    background: none;
+}
+.mainmenu ul.nav.navbar-nav li a {
+    color: #fff;
+    padding: 40px 15px;
+    font-size: 18px;
+}
+.mainmenu ul.nav.navbar-nav li a:hover, .social-links a:hover {
+    color: #D09900 !important;
+}
+.mainmenu ul.nav.navbar-nav li a:focus {
+    background: none;
+}
+.mainmenu ul.nav.navbar-nav li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    content: "";
+}
+.header-text {
+    padding: 100px 0;
+}
+.header-text h2 {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    font-size: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+}
+.btn-filled {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+.btn-filled::after {
+    background: #1d2122;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.btn-filled.yellow-color-btn:after {
+    background-color: #d2ba82;
+}
+.social-links {
+    position: absolute;
+    right: 0;
+    top: 38px;
+}
+.social-links a {
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 5px;
+    color: #fff;
+}
+.is-sticky .header-area {
+    background: #333;
+}
+.is-sticky .header-area:after {
+    background: #000;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    content: "";
+    z-index: -1;
+}
+.is-sticky .logo img {
+    height: 30px;
+    margin-top: 20px;
+    width: auto;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li a {
+    color: #D09900;
+    padding: 22px 15px;
+}
+.is-sticky .social-links a {
+    top: 18px;
+    color: #D09900;
+}
+.is-sticky .social-links {
+    top: 18px;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li a:hover, .is-sticky .social-links a:hover  {
+    color: #fff !important;
+}
+.logo img {
+    height: 50px;
+    margin-top: 28px;
+}
+.is-sticky .header-area:after,
+.logo img,
+.mainmenu ul.nav.navbar-nav li a,
+.social-links {
+    transition: .4s;
+}
+.fa-facebook-square {
+    color: #506698;
+}
+.fa-twitter-square {
+    color: #1CB7EB;
+}
+.fa-youtube-square {
+    color: #ED1C24;
+}
+.fa-linkedin-square {
+    color: #0083BE;
+}
+.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-youtube-square:hover, .fa-linkedin-square:hover {
+    color: #fff;
+    transition: 0.7s;
+}
+/*About Area*/
+.about-area {
+    background-image: url(img/symphony.png);
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    background: url(img/section-title-patterm.png) no-repeat scroll center bottom;
+    color: #cc9900;
+    padding-bottom: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-text {
+    margin-top: 20px;
+}
+
+/*Ingredients Area*/
+.ingredients-area {
+    position: relative;
+    z-index: 1;
+}
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ingredients-bg {
+    background-image: url(img/ing-bg.jpg);
+    z-index: -1;
+}
+.ingredients-text {
+    color: #fff;
+    font-size: 16px;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+.ingredients-text p {
+    margin-bottom: 30px;
+}
+.ingredients-text::after,
+.testimonial-list:after {
+    background: #000 none repeat scroll 0 0;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.section-title.white-sec-title {
+    text-align: center;
+    color: #fff;
+    background: url(img/section-title-patterm-white.png) no-repeat scroll center bottom;
+}
+
+/*Food Menu Area*/
+.food-menu-area {
+    background-image: url(img/symphony.png);
+}
+.single-food-menu-item h2 {
+    border-bottom: 1px solid;
+    color: #cf982d;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.single-food-menu-item h2 span {
+    float: right;
+    font-weight: 400;
+    position: relative;
+}
+.single-food-menu-item span img {
+    left: -25px;
+    position: absolute;
+    right: 0;
+    top: -3px;
+    width: 18px;
+}
+.single-food-menu-item {
+    margin-bottom: 40px;
+}
+.single-food-menu-item.special {
+    border: 1px solid #d09900;
+    padding: 10px;
+    position: relative;
+}
+.single-food-menu-item.special::before {
+    background: #d09900 none repeat scroll 0 0;
+    color: #fff;
+    content: "Special";
+    font-size: 14px;
+    padding: 1px 5px;
+    position: absolute;
+    right: -1px;
+    text-transform: uppercase;
+    top: -23px;
+}
+.single-food-menu-item p {
+    margin: 0;
+}
+
+/*Food Menu Gellary Area*/
+.food-gellary {
+    width: 100%;
+}
+.food-menu-list .mix {
+    display: none;
+}
+.food-menu {
+    padding: 35px 0;
+}
+.food-menu-filter {
+    text-align: center;
+    width: 100%;
+}
+.food-menu-filter .active {
+    background-color: #d09900;
+    color: #fff;
+    transition: all .5s;
+}
+.food-menu-filter li {
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: outside none none;
+    margin: 0 auto;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+.food-img img {
+    margin: 10px;
+}
+.snacks,
+.lunch,
+.dinner {
+    margin: 5px;
+}
+.food-menu-list {
+    text-align: center;
+    width: 100%;
+}
+
+/*Gellary Album Css*/
+.gellery-album {
+    width: 100%;
+    float: left;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+.small {
+    font-size: 11px;
+    color: #999;
+    display: block;
+    margin-top: -10px
+}
+.cont {
+    text-align: center;
+}
+.page-head {
+    padding: 60px 0;
+    text-align: center;
+}
+.page-head .lead {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.page-head h1 {
+    font-size: 42px;
+    margin: 0 0 20px;
+    color: #FFF;
+    position: relative;
+    display: inline-block;
+}
+.page-head h1 .version {
+    bottom: 0;
+    color: #ddd;
+    font-size: 11px;
+    font-style: italic;
+    position: absolute;
+    width: 58px;
+    right: -58px;
+}
+#lightgallery img:hover {
+  opacity: 0.8;
+  transition: 0.5;
+}
+
+.image-item a img {
+    margin: 0;
+    max-width: 15%;
+    padding: 0;
+}
+.image-item a {
+    margin: 5px 5px 5px 5px;
+    padding: 0;
+}
+
+/* End Gellary Album Css*/
+
+/*Food Menu Gellary Area------image hover effect*/
+.hovereffect {
+    cursor: default;
+    display: inline-block;
+    float: none;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+.hovereffect:hover img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.7);
+    -webkit-filter: brightness(0.7);
+}
+.hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 100%;
+}
+.hovereffect:hover h2 {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+    transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+}
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+}
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+.hovereffect .rotate {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.hovereffect hr {
+    width: 50%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.hovereffect hr:nth-child(2) {
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(0, 0, 1);
+    transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(0, 0, 1);
+}
+.hovereffect hr:nth-child(3) {
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+    transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(0, 0, 1);
+}
+.hovereffect h2,
+.hovereffect hr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+    background-color: transparent;
+    margin: 0px;
+}
+.group1,
+.group2 {
+    left: 50%;
+    position: absolute;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform-origin: 50%;
+    -ms-transform-origin: 50%;
+    transform-origin: 50%;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+.group1 {
+    top: 40%;
+}
+.group2 {
+    top: 60%;
+}
+.hovereffect p {
+    text-transform: none;
+    font-size: 15px;
+    line-height: 2;
+}
+.hovereffect p a {
+    color: #fff;
+}
+.hovereffect p a:hover,
+.hovereffect p a:focus {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.hovereffect a i {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    padding: 10px;
+    font-size: 20px;
+}
+.group1 a:first-child i {
+    -webkit-transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+    transform: translate3d(-60px, -60px, 0) rotate(45deg) scale(2);
+}
+.group1 a:nth-child(2) i {
+    -webkit-transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+    transform: translate3d(60px, -60px, 0) rotate(45deg) scale(2);
+}
+.group2 a:first-child i {
+    -webkit-transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+    transform: translate3d(-60px, 60px, 0) rotate(45deg) scale(2);
+}
+.group2 a:nth-child(2) i {
+    -webkit-transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+    transform: translate3d(60px, 60px, 0) rotate(45deg) scale(2);
+}
+.hovereffect:hover hr:nth-child(2) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(1, 1, 1);
+    transform: translate3d(-50%, -50%, 0) rotate(0deg) scale3d(1, 1, 1);
+}
+.hovereffect:hover hr:nth-child(3) {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+    transform: translate3d(-50%, -50%, 0) rotate(90deg) scale3d(1, 1, 1);
+}
+.hovereffect:hover .group1 i:empty,
+.hovereffect:hover .group2 i:empty {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0) rotate(45deg) scale(1);
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*/////END Food Menu Gellary Area------image hover effect*/
+
+/*Testimonial Area*/
+.testimonial-area {
+    position: relative;
+}
+.testimonial-bg {
+    background-image: url(img/testimonial-bg.jpg);
+}
+.testimonial-list {
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+}
+.testimonial-list p.testimonial-author {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.testimonial-author img {
+    max-width: 10%;
+}
+#testimonial-carousel:before {
+    font-family: fontAwesome;
+    content: "\f10d";
+    position: absolute;
+    left: -30px;
+    top: -17px;
+    color: #9a9b9a;
+    font-size: 35px;
+}
+
+/*Contact Area*/
+.contact-us-area {
+    background-image: url(img/symphony.png);
+    width: 100%;
+    float: left;
+}
+.contact-img img {
+    max-width: 245px;
+}
+.contact-img {
+    float: left;
+    max-width: 100%;
+}
+.contact-img .hovereffect {
+    cursor: default;
+    height: 100%;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.contact-form {
+    text-align: left;
+    margin-top: 30px;
+}
+.contact-form input[type="text"],
+.contact-form select {
+    width: 100%;
+    border: 1px solid#e2d4ac;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.contact-form select option {
+    border: 1px solid#e2d4ac;
+}
+.contact-btn {
+    background-color: #CBA03C;
+    color: #fff;
+    border-radius: 0;
+    display: block;
+    float: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px auto 0;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.contact-btn span:after {
+    content: "»";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.contact-btn:hover span {
+    padding-right: 25px;
+}
+.contact-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*Footer Area*/
+.footer-area {
+    background: #191919 none repeat scroll 0 0;
+    color: #bfbfbf;
+    float: left;
+    font-size: 15px;
+    padding: 50px 0;
+    width: 100%;
+}
+.footer-area .section-title {
+    font-size: 20px;
+}
+.footer-area strong {
+    color: #fff;
+}
+.footer-cards {
+    color: #fff;
+    margin: 0;
+}
+.footer-social-icon a {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 3px;
+}
+.footer-area .section-title {
+    background-image: url("img/section-pattern-little.png");
+    color: #fff;
+}
+.footer-cards ul {
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+.footer-cards ul li {
+    display: inline-block;
+    float: none;
+    list-style: outside none none;
+    margin: 0 auto;
+    max-width: 11%;
+}
+
+/*Gellery Page*/
+.food-gellary {
+    margin-top: 50px;
+    background-image: url(img/gellary-bg.png);
+    background-repeat: repeat;
+    width: 100%;
+}
+
+/*Tabbed Menu Area*/
+.tab-food-menu-area {
+    background-color: #fff;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.tab-food-menu-area button {
+    background-color: transparent;
+    border: 0;
+}
+.tab-food-menu-area button .fa {
+    color: blue;
+    font-size: 30px;
+}
+.tab-food-menu-area h2 {
+    margin-bottom: 100px;
+}
+.panel-default .panel-heading {
+    background-color: #333;
+    border-color: #ddd;
+    color: #fff;
+}
+.panel-inner-picture {
+    padding: 15px;
+    text-align: center;
+}
+.tab-menu-pic {
+    margin: 5px;
+    max-width: 100px;
+}
+.panel-collapse p {
+    padding: 0 30px;
+    text-align: justify;
+}
+.panel-default p span,
+.tab-food-content span {
+    color: #ca9500;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+.panel-title a {
+    color: #ca9500;
+    font-weight: bold;
+    text-decoration: none;
+}
+.panel-inner-picture .hovereffect a i {
+    font-size: 20px;
+    opacity: 0;
+    padding: 10px;
+    transition: opacity 0.35s ease 0s, transform 0.35s ease 0s;
+    color: #D09900;
+}
+.tab-food-content {
+    text-align: center;
+}
+.tab-food-content p {
+    margin: 20px 0;
+    text-align: right;
+}
+.Facebook-comments-box {
+    overflow: hidden;
+}
+
+/*CD Top /top scroll*/
+a,
+a:hover,
+a:focus {
+    outline: none
+}
+
+/* top scroll  */
+.cd-top {
+    background: #d09900 url("img/cd-top-arrow.svg") no-repeat scroll center 50%;
+    border-radius: 20px;
+    bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    height: 40px;
+    opacity: 0;
+    position: fixed;
+    right: 10px;
+    text-indent: 100%;
+    transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s;
+    white-space: nowrap;
+    width: 40px;
+    z-index: 999;
+}
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
+.no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+    / the button becomes visible / visibility: visible;
+    opacity: 1;
+}
+.cd-top.cd-fade-out {
+    / if the user keeps scrolling down,
+    the button is out of focus and becomes less visible / opacity: .5;
+}
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
